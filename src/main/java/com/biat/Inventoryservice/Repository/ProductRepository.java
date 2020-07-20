@@ -1,9 +1,10 @@
-package com.biat.Inventoryservice.Repository;
+package com.biat.inventoryservice.repository;
 
-import com.biat.Inventoryservice.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+import org.springframework.data.rest.webmvc.RepositoryRestController;
 
-@RepositoryRestResource
-public interface ProductRepository  extends JpaRepository<Product,Long> {
+import com.biat.inventoryservice.model.Product;
+@RepositoryRestController
+public interface ProductRepository extends JpaRepository<Product, Long>{
+
 }

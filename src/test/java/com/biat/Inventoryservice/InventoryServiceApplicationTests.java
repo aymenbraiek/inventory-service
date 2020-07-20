@@ -1,4 +1,4 @@
-package com.biat.Inventoryservice;
+package com.biat.inventoryservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
